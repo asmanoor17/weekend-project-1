@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<style>
+		   html,body{
+		        display:flex;
+		        flex-direction: column;
+		        height:100%;
+		    }
+		    div{
+		        flex:1;
+		        text-align: center;
+		    }
+		</style>
+	</head>
+
+	<body>
+		<div>
+		    <button id="Click Me" onclick="addColor">Click Me to Add a Color!</button>
+			<p id = "background-color"></p>
+		</div>
+
+		<script>
+
+			var button = document.getElementById("Click Me");
+			var body = document.body;
+			function addColor(){
+				var userColor = prompt("Choose a color");
+
+			}
+			button.addEventListener("click", addColor);
+		</script>
+	</body>
+</html>
+
+
+
+
+
